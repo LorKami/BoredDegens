@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Designer';
+  src: url('./font/Designer.otf');
+}
+
+/* font-family: 'Designer', sans-serif; */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

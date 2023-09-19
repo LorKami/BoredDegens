@@ -1,0 +1,117 @@
+.MonitorSection {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.MonitorVid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.MonitorImages {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.Bored1 img,
+.Bored2 img,
+.Logo img {
+    object-fit: contain;
+}
+
+.Bored1 img,
+.Bored2 img {
+    width: 100%;
+    height: 100%;
+    transform: translateY(1%);
+}
+
+
+.Logo,
+.Bored1,
+.Bored2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-250%);
+}
+
+/* .Logo button {
+    transform: translateY(-1200%);
+} */
+
+.LogoBtn {
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-width: 10px;
+    border-image-source: url(../../images/border2.webp);
+    border-style: solid;
+}
+
+.LogoBtn {
+    cursor: pointer;
+    background-color: black;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Designer', sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    padding-left: 8px;
+    padding-right: 8px;
+    transform: translateY(-800%);
+}
+
+.LogoBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.LogoBtn:hover {
+    color: black;
+    /* transform: scale(1.1); */
+}
+
+.LogoBtn:hover::before {
+    left: 0;
+}
+
+input[type="range"] {
+    width: 80px;
+    height: 10px;
+    background-color: #000000;
+    background-image: url(../../images/border2.webp);
+    border-radius: 5px;
+    outline: none;
+    appearance: none;
+    margin-left: 10px;
+    accent-color: rgb(102, 102, 102);
+}

@@ -1,0 +1,204 @@
+.HomeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.border {
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-image-source: url(../../images/border2.webp);
+    border-style: solid;
+    border-width: 0px 0px 20px;
+}
+
+.HomeBoxes {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.HomeImageLeft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeImageLeft img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(1%);
+}
+
+.HomeInfoRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeInfoRightText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Designer', sans-serif;
+}
+
+.HomeInfoRightText h2,
+.HomeInfoRightText h3 {
+    color: black;
+    margin: 0px;
+    -webkit-text-stroke: 0.1px white;
+    text-stroke: 0.1px white;
+}
+
+.HomeInfoRightText h2 {
+    font-size: 2.5rem;
+}
+
+.HomeInfoRightText h3 {
+    font-size: 2rem;
+}
+
+.HomeInfoRightBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.BtnHomeInfo {
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-width: 10px;
+    border-image-source: url(../../images/border2.webp);
+    border-style: solid;
+}
+
+.BtnHomeInfo {
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Designer', sans-serif;
+    /* position: relative;
+    overflow: hidden; */
+    transition: all 0.3s;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.BtnHomeInfo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.BtnHomeInfo:hover {
+    color: black;
+    /* transform: scale(1.1); */
+}
+
+.BtnHomeInfo:hover::before {
+    left: 0;
+}
+
+.HomeMap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(../../images/background.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.HomeMapTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Designer', sans-serif;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.HomeMapTitle h2,
+.HomeMapTitle h3 {
+    color: black;
+    margin: 0px;
+    -webkit-text-stroke: 0.1px white;
+    text-stroke: 0.1px white;
+}
+
+.HomeMapTitle h2 {
+    font-size: 4.5rem;
+}
+
+.HomeMapTitle h3 {
+    font-size: 2rem;
+}
+
+.HomeMapBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeMapBoxInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-width: 10px;
+    border-image-source: url(../../images/border2.webp);
+    border-style: solid;
+    background-color: #2e2e2e;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+}
+
+.HomeMapBoxInfo {
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Designer', sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+}
+
+.HomeMapBoxInfo h2 {
+    margin: 0px;
+}
