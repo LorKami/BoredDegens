@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BoredDegens/static/css/main.22747671.css",
-    "main.js": "/BoredDegens/static/js/main.6d56eb21.js",
+    "main.css": "/BoredDegens/static/css/main.c8e3c9eb.css",
+    "main.js": "/BoredDegens/static/js/main.35a79317.js",
     "static/media/BolicBohemian.mp4": "/BoredDegens/static/media/BolicBohemian.0e9fe3c82c5336a2f70a.mp4",
     "static/media/bored1.webp": "/BoredDegens/static/media/bored1.9b044c6e0d60a3e87b20.webp",
     "static/media/bored2.webp": "/BoredDegens/static/media/bored2.29a7d4a6bf55970d30f6.webp",
@@ -13,11 +13,11 @@
     "static/media/pepe.webp": "/BoredDegens/static/media/pepe.7e32bfdf21c4814174db.webp",
     "static/media/border2.webp": "/BoredDegens/static/media/border2.ce35cf8321cbd8295b80.webp",
     "index.html": "/BoredDegens/index.html",
-    "main.22747671.css.map": "/BoredDegens/static/css/main.22747671.css.map",
-    "main.6d56eb21.js.map": "/BoredDegens/static/js/main.6d56eb21.js.map"
+    "main.c8e3c9eb.css.map": "/BoredDegens/static/css/main.c8e3c9eb.css.map",
+    "main.35a79317.js.map": "/BoredDegens/static/js/main.35a79317.js.map"
   },
   "entrypoints": [
-    "static/css/main.22747671.css",
-    "static/js/main.6d56eb21.js"
+    "static/css/main.c8e3c9eb.css",
+    "static/js/main.35a79317.js"
   ]
 }
