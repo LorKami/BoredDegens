@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/BoredDegens/static/css/main.c8e3c9eb.css",
-    "main.js": "/BoredDegens/static/js/main.35a79317.js",
-    "static/media/BolicBohemian.mp4": "/BoredDegens/static/media/BolicBohemian.0e9fe3c82c5336a2f70a.mp4",
-    "static/media/bored1.webp": "/BoredDegens/static/media/bored1.9b044c6e0d60a3e87b20.webp",
-    "static/media/bored2.webp": "/BoredDegens/static/media/bored2.29a7d4a6bf55970d30f6.webp",
-    "static/media/Designer.otf": "/BoredDegens/static/media/Designer.2dafd719ada681888994.otf",
-    "static/media/background.webp": "/BoredDegens/static/media/background.717a3623f79fe61a89e2.webp",
-    "static/media/alien.webp": "/BoredDegens/static/media/alien.7eb730492b4c5b5b99ee.webp",
-    "static/media/robot.webp": "/BoredDegens/static/media/robot.b392ad6886e64a57cbae.webp",
-    "static/media/logo1.webp": "/BoredDegens/static/media/logo1.a040abc427ffb7995c65.webp",
-    "static/media/pepe.webp": "/BoredDegens/static/media/pepe.7e32bfdf21c4814174db.webp",
-    "static/media/border2.webp": "/BoredDegens/static/media/border2.ce35cf8321cbd8295b80.webp",
-    "index.html": "/BoredDegens/index.html",
-    "main.c8e3c9eb.css.map": "/BoredDegens/static/css/main.c8e3c9eb.css.map",
-    "main.35a79317.js.map": "/BoredDegens/static/js/main.35a79317.js.map"
+    "main.css": "/static/css/main.e6dfc78d.css",
+    "main.js": "/static/js/main.6aaf8b10.js",
+    "static/media/BolicBohemian.mp4": "/static/media/BolicBohemian.0e9fe3c82c5336a2f70a.mp4",
+    "static/media/bored1.webp": "/static/media/bored1.9b044c6e0d60a3e87b20.webp",
+    "static/media/bored2.webp": "/static/media/bored2.29a7d4a6bf55970d30f6.webp",
+    "static/media/Designer.otf": "/static/media/Designer.2dafd719ada681888994.otf",
+    "static/media/background.webp": "/static/media/background.717a3623f79fe61a89e2.webp",
+    "static/media/alien.webp": "/static/media/alien.7eb730492b4c5b5b99ee.webp",
+    "static/media/robot.webp": "/static/media/robot.b392ad6886e64a57cbae.webp",
+    "static/media/logo1.webp": "/static/media/logo1.a040abc427ffb7995c65.webp",
+    "static/media/pepe.webp": "/static/media/pepe.7e32bfdf21c4814174db.webp",
+    "static/media/border2.webp": "/static/media/border2.ce35cf8321cbd8295b80.webp",
+    "index.html": "/index.html",
+    "main.e6dfc78d.css.map": "/static/css/main.e6dfc78d.css.map",
+    "main.6aaf8b10.js.map": "/static/js/main.6aaf8b10.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e3c9eb.css",
-    "static/js/main.35a79317.js"
+    "static/css/main.e6dfc78d.css",
+    "static/js/main.6aaf8b10.js"
   ]
 }
